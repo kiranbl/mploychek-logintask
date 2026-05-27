@@ -1,0 +1,45 @@
+<div class="container">
+
+  <div class="card">
+
+    <h1>Login</h1>
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+      <input
+        type="text"
+        placeholder="Username"
+        formControlName="username"
+      >
+
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="password"
+      >
+
+      <select formControlName="role">
+
+        <option value="">
+          Select Role
+        </option>
+
+        <option value="Admin">
+          Admin
+        </option>
+
+        <option value="General User">
+          General User
+        </option>
+
+      </select>
+
+      <button type="submit">
+        Login
+      </button>
+
+    </form>
+
+  </div>
+
+</div>

@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+}
+
+.card {
+  width: 350px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+}
